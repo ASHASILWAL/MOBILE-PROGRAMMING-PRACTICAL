@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/about"
+        android:title="About">
+
+        <menu>
+            <item
+                android:id="@+id/name"
+                android:title="Name"
+                />
+            <item
+                android:id="@+id/address"
+                android:title="Address"
+                />
+
+        </menu>
+
+
+
+    </item>
+
+    <item
+        android:id="@+id/resource"
+        android:title="Resource"
+        />
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        />
+    <item
+        android:id="@+id/contact"
+        android:title="Contact"
+        />
+
+
+</menu>

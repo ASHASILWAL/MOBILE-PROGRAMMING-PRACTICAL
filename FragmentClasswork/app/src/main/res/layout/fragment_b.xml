@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context=".BFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="FRAGMENT B"
+        android:textSize="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#8EFC86"
+        />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/img"
+        android:background="@color/black"
+        ></ImageView>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is fragment B where we can see one image having black background."
+        android:textSize="30dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="600dp"
+        android:textStyle="italic"
+        android:textColor="#0A449A"
+        />
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActivityEg</string>
+
+    <string name="txt1"> Welcome to this page </string>
+    <string name="btn1"> Click Me </string>
+    <string name="textactivity2"> Welcome to second page </string>
+    <string name="textactivity3"> Now you are at second activity of our multiple activity creation project. We all want to welcome. </string>
+
+</resources>

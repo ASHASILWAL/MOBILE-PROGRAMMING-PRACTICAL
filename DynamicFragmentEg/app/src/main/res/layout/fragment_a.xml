@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment A."
+        android:textSize="45dp"
+        android:textColor="@color/purple_200"
+        android:background="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/atxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDITION"
+        android:textSize="45dp"
+        android:textColor="@color/purple_700"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Number"
+        android:textSize="30dp"
+        android:textColor="#21B300"
+        android:background="@color/white"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/aedt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="260dp"
+        android:width="140dp"
+
+        />
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Number"
+        android:textSize="30dp"
+        android:textColor="#21B300"
+        android:background="@color/white"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/aedt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="260dp"
+        android:width="140dp"
+
+    />
+
+    <Button
+        android:id="@+id/abtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textSize="50dp"
+        android:textColor="#25CC0A"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="140dp"
+        />
+
+
+</FrameLayout>
